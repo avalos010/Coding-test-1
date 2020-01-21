@@ -1,5 +1,8 @@
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
 
+
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 body {
     font-family: 'Josefin Sans', sans-serif;
@@ -82,6 +85,7 @@ p {
 }
 
 .details__info {
+    -webkit-box-shadow: 1px 2px 2px #777;
     box-shadow: 1px 2px 2px #777;
     width: 450px;
     font-size: 9px;
@@ -89,6 +93,8 @@ p {
     opacity: 0;
     margin: auto;
     margin-top: -46px;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
     transition: all .3s;
 }
 
