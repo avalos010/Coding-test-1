@@ -1,0 +1,133 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+p {
+    font-size: 2.5em
+}
+
+.container {
+    max-width: 1535px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.container__heading {
+    font-size: 5.1em;
+}
+
+.container__description {
+    color: #777;
+}
+
+.details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.details__section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: auto;
+    margin-right: 10px;
+}
+
+.details__tile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 10px;
+    width: 580px;
+    position: relative;
+}
+
+.details__tile>div:first-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin: 10px;
+    width: 580px;
+    position: relative;
+    cursor: pointer;
+}
+
+.details__info {
+    box-shadow: 1px 2px 2px #777;
+    width: 450px;
+    font-size: 9px;
+    height: 0;
+    opacity: 0;
+    margin: auto;
+    margin-top: -46px;
+    transition: all .3s;
+}
+
+.details__info>p {
+    width: 90%;
+    margin: 15px auto;
+}
+
+.details__icon {
+    width: 4em;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .details__section {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: start;
+    }
+    .details__title {
+        font-size: 2.2rem;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .container__heading {
+        font-size: 4em;
+    }
+    .details__title {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 519px) {
+    .details__title {
+        font-size: 1.8em;
+    }
+    .details__info {
+        width: 350px;
+        margin-left: 35px;
+    }
+}
