@@ -130,10 +130,13 @@ p {
 
 @media only screen and (max-width: 519px) {
     .details__title {
-        font-size: 1.8em;
+        font-size: 1.5em;
     }
     .details__info {
         width: 350px;
         margin-left: 35px;
+    }
+    .details__tile>div:first-child {
+        width: 100%;
     }
 }
