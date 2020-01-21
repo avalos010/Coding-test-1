@@ -1,12 +1,12 @@
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
 
-
-/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
-
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+* {
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Josefin Sans', sans-serif;
-    overflow-x: hidden;
 }
 
 p {
